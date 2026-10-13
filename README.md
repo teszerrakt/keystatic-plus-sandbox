@@ -6,12 +6,11 @@ Stack: Astro, Starlight, React and the fork's `@keystatic/core`, deployed on Ver
 
 ## Prove a fork PR
 
-The fork comes from tarballs in `vendor/`, so unreleased code builds here and on Vercel.
+The fork's "Publish (Preview)" workflow publishes every PR commit to [pkg.pr.new](https://pkg.pr.new). Nothing goes to npm.
 
-1. In the fork, on the PR branch: `pnpm build:packages && node scripts/plus-pack.mjs 0.6.9-plus.<major>.<minor>.<patch>-pr<N>`
-2. Here: `pnpm use-fork 0.6.9-plus.<major>.<minor>.<patch>-pr<N>` (reads `../keystatic/plus-dist`; set `PLUS_DIST` to change it)
-3. Commit `vendor/`, `package.json`, `pnpm-workspace.yaml` and the lockfile on a branch, and push. Vercel builds a preview.
-4. Run the flow in the editor and capture it for the PR's Proof section.
+1. Find the commit's build in that workflow's log, or use the PR's head commit sha.
+2. On a branch here: `pnpm use-fork <sha>`, then commit `package.json` and the lockfile, and push. Vercel builds a preview.
+3. Run the flow in the editor and capture it for the PR's Proof section.
 
 ## Environment
 

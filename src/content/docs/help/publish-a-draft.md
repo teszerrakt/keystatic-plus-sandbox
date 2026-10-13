@@ -5,7 +5,7 @@ section: publishing
 sidebar:
   order: 1
 ---
-Open **Review & publish** from the draft bar. It lists every changed page and checks links.
+Open **Review & publish** from the draft bar. It lists every changed page and checks links. Saved straight to the live site.
 
 ## Publish now
 

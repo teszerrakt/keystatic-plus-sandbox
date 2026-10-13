@@ -6,6 +6,8 @@ const repo = import.meta.env.PUBLIC_KEYSTATIC_GITHUB_REPO as `${string}/${string
 // A draft branch's Vercel preview; the fork fills in {alias}.
 const draftPreview = import.meta.env.PUBLIC_DRAFT_PREVIEW_URL as string | undefined;
 const siteUrl = import.meta.env.SITE_URL as string | undefined;
+// On unless set to "false", to show standard Keystatic saves for a fork PR's proof.
+const drafts = import.meta.env.PUBLIC_KEYSTATIC_DRAFTS !== 'false';
 
 // Each group is a language (English, Indonesian, Simplified Chinese); its name keys the section labels (see src/locales.mjs).
 const navigation = {
@@ -62,7 +64,7 @@ export default config({
 				kind: 'github',
 				repo,
 				branchPrefix: 'draft/',
-				drafts: true,
+				drafts,
 				draftPreviewUrl: draftPreview,
 				siteUrl,
 			}

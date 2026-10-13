@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@keystar/ui': https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037
+  '@keystar/ui': https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce
 
 importers:
 
@@ -22,10 +22,10 @@ importers:
         version: 11.0.14(astro@7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1))(react@19.3.0)
       '@keystatic/astro':
         specifier: ^6.0.0
-        version: 6.0.0(@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(astro@7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
+        version: 6.0.0(@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(astro@7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
       '@keystatic/core':
-        specifier: https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037
-        version: https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)
+        specifier: https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce
+        version: https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)
       astro:
         specifier: ^7.2.10
         version: 7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1)
@@ -590,8 +590,8 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037':
-    resolution: {integrity: sha512-EFZzpuEtQ6PWrUHruZJJQlWqaHFxOgHb9sn139OoNpRKEIahFXd0Pg0PKveMA7WJ8H/yh3pViaNYv9n1VqAUjQ==, tarball: https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037}
+  '@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce':
+    resolution: {integrity: sha512-EFZzpuEtQ6PWrUHruZJJQlWqaHFxOgHb9sn139OoNpRKEIahFXd0Pg0PKveMA7WJ8H/yh3pViaNYv9n1VqAUjQ==, tarball: https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce}
     version: 0.10.0
     peerDependencies:
       next: '>=14'
@@ -612,8 +612,8 @@ packages:
       react: ^18.2.0 || ^19.0.0
       react-dom: ^18.2.0 || ^19.0.0
 
-  '@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037':
-    resolution: {integrity: sha512-XQsy6pCrNgfSb9Hi2s/+yTps9fLp6MDh0zLl3/S3jGecVZNjwkIRgcX7gEwxOX++LTtTnQjCJ1ucVQpGGqRoeQ==, tarball: https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037}
+  '@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce':
+    resolution: {integrity: sha512-P4dm4UDClbLPYsj4sjNf43BNMoqahME7cpqB9QZ1DlLm+W9Rs2q1bltn212tKRWNrCTORMoksdfCIbJzNZHKkQ==, tarball: https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce}
     version: 0.6.9
     peerDependencies:
       '@keystar/ui': ~0.10.0
@@ -3322,7 +3322,7 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)':
+  '@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@babel/runtime': 7.29.10
       '@emotion/cache': 11.14.0
@@ -3342,16 +3342,16 @@ snapshots:
       react-dom: 19.3.0(react@19.3.0)
       react-stately: 3.48.0(react@19.3.0)
 
-  '@keystatic/astro@6.0.0(@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(astro@7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
+  '@keystatic/astro@6.0.0(@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(astro@7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1))(react-dom@19.3.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@babel/runtime': 7.29.10
-      '@keystatic/core': https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)
+      '@keystatic/core': https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)
       '@types/react': 19.3.0
       astro: 7.3.8(@types/node@24.19.2)(@vercel/functions@3.9.11)(idb-keyval@6.3.0)(yaml@2.9.1)
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
 
-  '@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)':
+  '@keystatic/core@https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce(@keystar/ui@https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0))(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)':
     dependencies:
       '@babel/runtime': 7.29.10
       '@braintree/sanitize-url': 6.0.4
@@ -3360,7 +3360,7 @@ snapshots:
       '@internationalized/date': 3.12.4
       '@internationalized/number': 3.6.9
       '@internationalized/string': 3.2.10
-      '@keystar/ui': https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)
+      '@keystar/ui': https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce(react-aria@3.50.0(react-dom@19.3.0(react@19.3.0))(react@19.3.0))(react-dom@19.3.0(react@19.3.0))(react-stately@3.48.0(react@19.3.0))(react@19.3.0)
       '@markdoc/markdoc': 0.4.0(@types/react@19.3.0)(react@19.3.0)
       '@react-types/shared': 3.37.0(react@19.3.0)
       '@sindresorhus/slugify': 1.1.2

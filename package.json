@@ -1,0 +1,33 @@
+{
+  "name": "keystatic-plus-sandbox",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro build && astro preview",
+    "astro": "astro",
+    "check": "astro check",
+    "use-fork": "node scripts/use-fork.mjs"
+  },
+  "dependencies": {
+    "@astrojs/react": "^7.0.0",
+    "@astrojs/starlight": "^0.42.5",
+    "@astrojs/vercel": "^11.0.14",
+    "@keystatic/astro": "^6.0.0",
+    "@keystatic/core": "file:vendor/teszerrakt-keystatic-core-0.6.9-plus.1.0.0-pr4.tgz",
+    "astro": "^7.2.10",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sharp": "^0.35.3",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^6.0.3"
+  },
+  "packageManager": "pnpm@11.20.0"
+}

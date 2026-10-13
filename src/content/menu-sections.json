@@ -1,0 +1,16 @@
+{
+  "sections": [
+    {
+      "id": "getting-started",
+      "label": { "English": "Getting started", "Bahasa Indonesia": "Memulai", "简体中文": "入门" }
+    },
+    {
+      "id": "writing",
+      "label": { "English": "Writing pages", "Bahasa Indonesia": "Menulis halaman", "简体中文": "编写页面" }
+    },
+    {
+      "id": "publishing",
+      "label": { "English": "Publishing", "Bahasa Indonesia": "Menerbitkan", "简体中文": "发布" }
+    }
+  ]
+}

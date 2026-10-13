@@ -16,7 +16,7 @@
     "@astrojs/starlight": "^0.42.5",
     "@astrojs/vercel": "^11.0.14",
     "@keystatic/astro": "^6.0.0",
-    "@keystatic/core": "https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@be30037",
+    "@keystatic/core": "https://pkg.pr.new/teszerrakt/keystatic/@keystatic/core@bb6d2ce",
     "astro": "^7.2.10",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",

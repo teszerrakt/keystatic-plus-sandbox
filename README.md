@@ -10,7 +10,20 @@ The fork's "Publish (Preview)" workflow publishes every PR commit to [pkg.pr.new
 
 1. Find the commit's build in that workflow's log, or use the PR's head commit sha.
 2. On a branch here: `pnpm use-fork <sha>`, then commit `package.json` and the lockfile, and push. Vercel builds a preview.
-3. Run the flow in the editor and capture it for the PR's Proof section.
+3. Run the flow in the editor and capture it for the PR's Proof section (below).
+
+## Capture proof
+
+Run the editor locally (`pnpm dev --host 127.0.0.1`, GitHub mode from `.env`), then:
+
+```sh
+GH_TOKEN=$(gh auth token) WAIT_FOR="Preview ready" FOLLOW="Preview this page" \
+  pnpm shoot /tmp/pr-5 "/keystatic/branch/draft%2Fsome-draft/collection/docsEn/item/getting-started"
+```
+
+It signs in with your `gh` token as Keystatic's access cookie, waits for the text, and saves `/tmp/pr-5-1.png` (plus `-follow.png` for the followed link). Upload the images to a `verification/pr-<N>` branch in the fork and link them from the PR. `PUBLIC_KEYSTATIC_DRAFTS=false pnpm dev …` shows the editor without drafts.
+
+The browser comes from Playwright's cache; if it is missing: `pnpm exec playwright-core install chromium-headless-shell`. Chinese text shows as boxes unless a CJK font is installed.
 
 ## Environment
 

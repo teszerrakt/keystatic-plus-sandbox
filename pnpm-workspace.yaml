@@ -2,7 +2,7 @@
 allowBuilds:
   esbuild: true
   sharp: true
-# The packed fork core depends on the forked design system by an npm alias that
-# is not published. Point it at the tarball beside it; `pnpm use-fork` keeps both in step.
+# Core lists @keystar/ui as a peer too, and pnpm fills a peer from npm. The fork
+# adds components (SplitButton), so pin it to the same fork build as core.
 overrides:
-  '@keystar/ui': file:vendor/teszerrakt-keystar-ui-0.10.0-plus.1.0.0-pr4.tgz
+  '@keystar/ui': https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@be30037

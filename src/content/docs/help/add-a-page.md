@@ -5,7 +5,7 @@ section: writing
 sidebar:
   order: 1
 ---
-Choose **New page**, give it a title, and pick a menu section. This sentence was published directly from the editor.
+Choose **New page**, give it a title, and pick a menu section. This sentence was published directly from the editor. Fixed in one step with Publish now.
 
 ## Place it in the menu
 

@@ -10,7 +10,8 @@
     "astro": "astro",
     "check": "astro check",
     "use-fork": "node scripts/use-fork.mjs",
-    "shoot": "node scripts/shoot.mjs"
+    "shoot": "node scripts/shoot.mjs",
+    "proof": "node scripts/proof.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",

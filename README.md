@@ -21,7 +21,7 @@ GH_TOKEN=$(gh auth token) WAIT_FOR="Preview ready" FOLLOW="Preview this page" \
   pnpm shoot /tmp/pr-5 "/keystatic/branch/draft%2Fsome-draft/collection/docsEn/item/getting-started"
 ```
 
-It signs in with your `gh` token as Keystatic's access cookie, waits for the text, and saves `/tmp/pr-5-1.png` (plus `-follow.png` for the followed link). Upload the images to a `verification/pr-<N>` branch in the fork and link them from the PR. `PUBLIC_KEYSTATIC_DRAFTS=false pnpm dev …` shows the editor without drafts.
+It signs in with your `gh` token as Keystatic's access cookie, waits for the text, and saves `/tmp/pr-5-1.png` (plus `-follow.png` for the followed link). Upload them with `pnpm proof <pr-number> <file>...`: it puts them in the Cloudflare R2 bucket from `~/.config/plus-proofs.env` (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `PROOFS_BUCKET`, `PROOFS_URL`) under `pr-<N>/` and prints the Markdown to paste. The token is used for that run only, so `wrangler`'s own login is untouched. `PUBLIC_KEYSTATIC_DRAFTS=false pnpm dev …` shows the editor without drafts.
 
 The browser comes from Playwright's cache; if it is missing: `pnpm exec playwright-core install chromium-headless-shell`. Chinese text shows as boxes unless a CJK font is installed.
 

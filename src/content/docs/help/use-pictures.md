@@ -5,6 +5,6 @@ section: writing
 sidebar:
   order: 2
 ---
-Pictures live in one shared folder. Embed one from the Images page, or upload a new one.
+Pictures live in one shared folder. Embed one from the Images page, or upload a new one. Published from the editor with a confirmation.
 
 ![A sample diagram with three boxes](../../../assets/images/docs/sample-diagram.png)

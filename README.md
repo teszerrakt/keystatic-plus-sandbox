@@ -6,7 +6,7 @@ Stack: Astro, Starlight, React and the fork's `@keystatic/core`, deployed on Ver
 
 ## Prove a fork PR
 
-The fork's "Publish (Preview)" workflow publishes every PR commit to [pkg.pr.new](https://pkg.pr.new). Nothing goes to npm.
+Releases come from npm (`npm:@teszerrakt/keystatic-core@<version>`). For an unreleased PR, the fork's "Publish (Preview)" workflow publishes every PR commit to [pkg.pr.new](https://pkg.pr.new). Nothing goes to npm.
 
 1. Find the commit's build in that workflow's log, or use the PR's head commit sha.
 2. On a branch here: `pnpm use-fork <sha>`, then commit `package.json` and the lockfile, and push. Vercel builds a preview.

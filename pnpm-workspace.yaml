@@ -2,7 +2,7 @@
 allowBuilds:
   esbuild: true
   sharp: true
-# Core lists @keystar/ui as a peer too, and pnpm fills a peer from npm. The fork
-# adds components (SplitButton), so pin it to the same fork build as core.
-overrides:
-  '@keystar/ui': https://pkg.pr.new/teszerrakt/keystatic/@keystar/ui@bb6d2ce
+# A fresh fork release must install the day it ships.
+minimumReleaseAgeExclude:
+  - '@teszerrakt/keystatic-core'
+  - '@teszerrakt/keystar-ui'

@@ -5,7 +5,8 @@ import { config, collection, fields, singleton } from '@keystatic/core';
 const repo = import.meta.env.PUBLIC_KEYSTATIC_GITHUB_REPO as `${string}/${string}` | undefined;
 // A draft branch's Vercel preview; the fork fills in {alias}.
 const draftPreview = import.meta.env.PUBLIC_DRAFT_PREVIEW_URL as string | undefined;
-const siteUrl = import.meta.env.SITE_URL as string | undefined;
+// Astro's `site` (from SITE_URL in astro.config.mjs); plain SITE_URL never reaches the browser.
+const siteUrl = import.meta.env.SITE as string | undefined;
 // On unless set to "false", to show standard Keystatic saves for a fork PR's proof.
 const drafts = import.meta.env.PUBLIC_KEYSTATIC_DRAFTS !== 'false';
 

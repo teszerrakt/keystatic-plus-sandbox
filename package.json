@@ -9,7 +9,8 @@
     "preview": "astro build && astro preview",
     "astro": "astro",
     "check": "astro check",
-    "use-fork": "node scripts/use-fork.mjs"
+    "use-fork": "node scripts/use-fork.mjs",
+    "shoot": "node scripts/shoot.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",
@@ -27,7 +28,8 @@
     "@astrojs/check": "^0.9.10",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "playwright-core": "1.63.0"
   },
   "packageManager": "pnpm@11.20.0"
 }
